@@ -51,6 +51,7 @@ The portfolio is fully responsive for all range of devices.
 * Tablet: The layout changes to 2 project in a row.
 * Mobile: The layout changes to 1 project in a row.
 All images are also responsive and font decreases as with device size.
+
 ## License
 laundry.png taken from [iconfinder](https://cdn0.iconfinder.com/data/icons/hotel-vacation/33/laundry-512.png)
 helping-hand.png from [clipartkid](http://www.clipartkid.com/images/136/wearechangetv-us-the-ultimate-exit-strategy-TA4kS3-clipart.jpg)
