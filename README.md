@@ -53,6 +53,6 @@ The portfolio is fully responsive for all range of devices.
 All images are also responsive and font decreases as with device size.
 
 ## License
-laundry.png taken from [iconfinder](https://cdn0.iconfinder.com/data/icons/hotel-vacation/33/laundry-512.png)
-helping-hand.png from [clipartkid](http://www.clipartkid.com/images/136/wearechangetv-us-the-ultimate-exit-strategy-TA4kS3-clipart.jpg)
-bootstrap framework from [Bootstrap](http://getbootstrap.com/)
+laundry.png taken from [iconfinder](https://cdn0.iconfinder.com/data/icons/hotel-vacation/33/laundry-512.png).
+helping-hand.png from [clipartkid](http://www.clipartkid.com/images/136/wearechangetv-us-the-ultimate-exit-strategy-TA4kS3-clipart.jpg).
+bootstrap framework from [Bootstrap](http://getbootstrap.com/).
