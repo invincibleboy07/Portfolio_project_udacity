@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+    <link rel="stylesheet"  href="css/style.css">
+    <script  src="js/action.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- this is header -->
+        <header>
+            <div class="row header">
+                <div class="col-md-6">
+                    <div id="logo">
+                        <img class="img-responsive" src="img/logo.svg" alt="A H logo">
+                    </div>
+                </div>
+                <div class="col-md-6" id="name">
+                    <h1>Prakash Rana</h1>
+                    <h3>Developer</h3>
+                </div>
+            </div>
+        </header>
+
+        <hr>
+
+        <div class="row main-image">
+            <div class= "col-md-12">
+                <img id="cover-image" src="img/main_image.png" alt="this is cover image">
+                <p class="description">
+                    Computer Science undergrad who enjoys learning new technologies while still getting lost in thoughts of universe.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Featured Work</h2>
+            </div>
+        </div>
+        <div class="featured-works">
+            <div class="featured-project" data-toggle="modal" data-target="#project1">
+                <img class="project-art" src="img/movie_trailer.png" alt="art for movie trailer project">
+                <p class="project-title"> Movie Trailer Website </p>
+                <a href="https://github.com/invincibleboy07/Movie_trailer_project_udacity">
+                    <div class="git-link"></div>
+                </a>
+            </div>
+            <div class="featured-project" data-toggle="modal" data-target="#project2">
+                <img class="project-art" src="img/everyday.png" alt="art for everyday webpage project">
+                <p class="project-title"> One Webpage A Day </p>
+                <a href="https://github.com/invincibleboy07/one_webpage_a_day">
+                    <div class="git-link"></div>
+                </a>
+            </div>
+            <div class="featured-project" data-toggle="modal" data-target="#project3">
+                <img class="project-art" src="img/laundry.png" alt="art for laundrica project">
+                <p class="project-title">Laundrica</p>
+                <a href="https://github.com/invincibleboy07">
+                    <div class="git-link"></div>
+                </a>
+            </div>
+            <div class="featured-project" data-toggle="modal" data-target="#project4">
+                <img class="project-art" src="img/wine.png" alt="art for Wine quality predictor project">
+                <p class="project-title"> Wine Quality Predictor </p>
+                <a href="https://github.com/invincibleboy07/Wine_Quality_Predictor">
+                    <div class="git-link"></div>
+                </a>
+            </div>
+            <div class="featured-project" data-toggle="modal" data-target="#project5">
+                <img class="project-art" src="img/helping-hand.jpg" alt="art for Helping hands project">
+                <p class="project-title"> Helping Hands </p>
+                <a href="https://github.com/invincibleboy07">
+                    <div class="git-link"></div>
+                </a>
+            </div>
+        </div>
+
+        <!-- modals for each featured work -->
+            <!-- modal for movie trailer project -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Movie trailer website</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/movie_trailer.png" alt="art for movie trailer project">
+                        This project contains a movie website where multiple movies are shown with there thumnail and youtube trailer. It was written in Python.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- modal for one webpage a day project -->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel1">One Webpage A Day</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/everyday.png" alt="art for everyday webpage project">
+                        This is my github repository. I have started developing one web page a day starting from this january 2017.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal for laundrica project -->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel2">Laundrica</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/laundry.png" alt="art for laundrica project">
+                        This was a group project where we created a Java based program to manage and ease the laundry service in our university hostel. It use sql database to store student and clothes informations.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal for  wine quality prediction project -->
+        <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel3">Wine Quality Predictor</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/wine.png" alt="art for Wine quality predictor project">
+                        Here I created a Random forest model to predict the quality of a wine after training the model with dataset containg information about wine like acidity, alcohal percent etc.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal for helping hands project -->
+        <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel4">Helping Hands</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/helping-hand.jpg" alt="art for Helping hands project">
+                        This is an android app that allows social service organizations to post for any help requirment and people who are willing to help can contact them from here.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- container div ends -->
+    </div>
+</body>
+</html>

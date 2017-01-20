@@ -1,0 +1,194 @@
+* {
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 15px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/*top most header of page*/
+.header {
+    width: 100%;
+    height: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+/*formating svg logo*/
+#logo {
+    max-width: 22%;
+    min-width: 80px;
+    margin-top: 5px;
+}
+
+#logo > img {
+    max-width: 100%;
+}
+
+#name {
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    height: 100%;
+    word-wrap: break-word
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/*horizontal line */
+hr {
+    height: 5px;
+    background-color: #7d97ad;
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/*the main big image*/
+#cover-image {
+    width: 100%;
+}
+
+.col-md-12{
+    position: relative;
+}
+
+/*div containing cover image*/
+.main-image {
+    margin-top: 25px;
+}
+
+/*text over the main image*/
+.description {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font: 36px 'Yanone Kaffeesatz', sans-serif;
+    margin-right: 5%;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+/*featured Work*/
+h2 {
+    font: 36px 'Lato', sans-serif;
+    color: #7d97ad;
+}
+
+.featured-works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+/*project name*/
+.featured-project {
+    width: 31%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-top: 15px;
+}
+
+.featured-project:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.project-art {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.git-link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/git.png") ;
+    /*center the git icon*/
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.project-title {
+    text-align: center;
+    font: 30px 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+/*Media queries for making responsive*/
+
+@media screen and (max-width: 850px) {
+    h1,h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .featured-project {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .description {
+        font-size:27px;
+        top:2%;
+    }
+}
+
+/*making single column layout in small screen*/
+@media screen and (max-width: 530px) {
+    .description {
+        font-size:18px;
+        margin-top: 3px;
+    }
+
+    .featured-works {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .featured-project {
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
