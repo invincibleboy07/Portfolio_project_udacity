@@ -14,7 +14,8 @@ This project contains following files and folders:
 
 ```
 Portfolio Project
-|   index.html
+|
+|___index.html
 |
 |___css
 |   |___bootstrap.css
