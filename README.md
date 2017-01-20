@@ -11,7 +11,7 @@ You just need a web browser to run this project. Once you have browser ready ope
 
 ## What's Inside?
 This project contains following files and folders:
-udacity-movie-trailer-project-master.zip/
+
 ```
 Portfolio Project
 |   index.html
